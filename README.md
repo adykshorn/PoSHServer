@@ -20,23 +20,7 @@ Edit the last line of the script to run as desired. Something along the lines of
 
 Start-StandalonePoSHServer -Port 80 -HomeDirectory "$HOME/www"
 
-Looks for index.ps1 by default. HTML should be in @""@ tags here is a quick example:
-
------------index.ps1-------------
-# What is your name?
-$name = "Al"
-
-@"
-<html>
-<head>
-  <title>Hello World</title>
-</head>
-<body>
-<h1>Hello, $name</h1>
-</body>
-</html>
-"@
--------------(end)----------------
+Looks for index.ps1 by default. HTML should be in @""@ tags. See example.ps1 for example.
 
 For further documentation, check out the documentation from the original here:
 https://github.com/yusufozturk/PoSHServer/blob/master/Documentation.pdf
