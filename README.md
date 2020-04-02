@@ -13,9 +13,11 @@ So far have done the following to make the script work with PowerShell core:
   validated for now. It relies on cmdlets that are not available in linux.
   
 ISSUES
+
 I haven't tested everything yet, but so far it's working but I haven't managed to get SSL to work.
 
 USAGE
+
 Edit the last line of the script to run as desired. Something along the lines of:
 
 Start-StandalonePoSHServer -Port 80 -HomeDirectory "$HOME/www"
